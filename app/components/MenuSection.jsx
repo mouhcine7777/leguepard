@@ -3,42 +3,12 @@
 import Link from "next/link";
 
 const categories = [
-  {
-    title: "Apéritifs",
-    subtitle: "Pour Bien Commencer",
-    href: "/menu/aperitifs",
-    number: "01",
-  },
-  {
-    title: "Entrées",
-    subtitle: "Pour Commencer",
-    href: "/menu/entrees",
-    number: "02",
-  },
-  {
-    title: "Plats",
-    subtitle: "Poisson & Viande",
-    href: "/menu/plats",
-    number: "03",
-  },
-  {
-    title: "Pâtes",
-    subtitle: "Nos Créations",
-    href: "/menu/pates",
-    number: "04",
-  },
-  {
-    title: "Desserts",
-    subtitle: "Pour Finir en Beauté",
-    href: "/menu/desserts",
-    number: "05",
-  },
-  {
-    title: "Cocktails",
-    subtitle: "Signatures & Classiques",
-    href: "/menu/cocktails",
-    number: "06",
-  },
+  { title: "Entrées",    subtitle: "Pour Commencer",       href: "/menu/entrees",    number: "01" },
+  { title: "Apéritifs",  subtitle: "Pour Bien Commencer",  href: "/menu/aperitifs",  number: "02" },
+  { title: "Plats",      subtitle: "Poisson & Viande",     href: "/menu/plats",      number: "03" },
+  { title: "Pâtes",      subtitle: "Nos Créations",        href: "/menu/pates",      number: "04" },
+  { title: "Desserts",   subtitle: "Pour Finir en Beauté", href: "/menu/desserts",   number: "05" },
+  { title: "Cocktails",  subtitle: "Signatures & Classiques", href: "/menu/cocktails", number: "06" },
 ];
 
 export default function MenuSection() {
@@ -63,28 +33,28 @@ export default function MenuSection() {
       <div className="relative z-10 max-w-lg mx-auto flex flex-col gap-3">
         {categories.map((cat) => (
           <Link key={cat.href} href={cat.href}>
-            <div className="group relative flex items-center justify-between px-6 py-5 border border-[#74031E]/20 bg-[#EAD4BA] hover:bg-[#74031E] active:bg-[#74031E] transition-colors duration-300 cursor-pointer overflow-hidden">
+            <div className="group relative flex items-center justify-between px-6 py-5 border border-[#74031E]/20 bg-[#EAD4BA] transition-colors duration-300 cursor-pointer overflow-hidden">
 
-              {/* Hover fill animation */}
-              <div className="absolute inset-0 bg-[#74031E] translate-x-[-101%] group-hover:translate-x-0 transition-transform duration-500 ease-in-out" />
+              {/* Hover/active fill animation */}
+              <div className="absolute inset-0 bg-[#74031E] translate-x-[-101%] group-hover:translate-x-0 group-active:translate-x-0 transition-transform duration-500 ease-in-out" />
 
               {/* Number */}
-              <span className="relative z-10 text-[10px] tracking-[0.3em] text-[#74031E]/35 group-hover:text-[#EAD4BA]/40 transition-colors duration-300 font-light">
+              <span className="relative z-10 text-[10px] tracking-[0.3em] text-[#74031E]/35 group-hover:text-[#EAD4BA]/40 group-active:text-[#EAD4BA]/40 transition-colors duration-300 font-light">
                 {cat.number}
               </span>
 
               {/* Title + subtitle */}
               <div className="relative z-10 flex-1 text-center px-4">
-                <p className="text-[13px] tracking-[0.2em] uppercase text-[#74031E] group-hover:text-[#EAD4BA] transition-colors duration-300 font-semibold leading-none mb-1">
+                <p className="text-[13px] tracking-[0.2em] uppercase text-[#74031E] group-hover:text-[#EAD4BA] group-active:text-[#EAD4BA] transition-colors duration-300 font-semibold leading-none mb-1">
                   {cat.title}
                 </p>
-                <p className="text-[8px] tracking-[0.25em] uppercase text-[#74031E]/45 group-hover:text-[#EAD4BA]/55 transition-colors duration-300 font-medium">
+                <p className="text-[8px] tracking-[0.25em] uppercase text-[#74031E]/45 group-hover:text-[#EAD4BA]/55 group-active:text-[#EAD4BA]/55 transition-colors duration-300 font-medium">
                   {cat.subtitle}
                 </p>
               </div>
 
               {/* Arrow */}
-              <span className="relative z-10 text-[#74031E]/40 group-hover:text-[#EAD4NA]/70 group-hover:translate-x-1 transition-all duration-300 text-xs">
+              <span className="relative z-10 text-[#74031E]/40 group-hover:text-[#EAD4BA]/70 group-active:text-[#EAD4BA]/70 group-hover:translate-x-1 group-active:translate-x-1 transition-all duration-300 text-xs">
                 →
               </span>
 
