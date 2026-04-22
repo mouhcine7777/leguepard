@@ -7,9 +7,10 @@ import { motion, AnimatePresence } from 'framer-motion';
 
 const menuItems = [
   { label: "Cocktails",         href: "/menu/cocktails" },
-  { label: "Champagnes & Vins", href: "/menu/champagnes-vins" },
+  { label: "Apéritifs",         href: "/menu/aperitifs" },
   { label: "Entrées",           href: "/menu/entrees" },
-  { label: "Poisson & Viande",  href: "/menu/poisson-viande" },
+  { label: "Plats",             href: "/menu/plats" },
+  { label: "Pâtes",             href: "/menu/pates" },
   { label: "Desserts",          href: "/menu/desserts" },
 ];
 
@@ -39,7 +40,6 @@ export default function MenuNav() {
           <Image src="/logo.png" alt="Le Guépard" width={110} height={55} priority style={{ height: 32, width: 'auto' }} />
         </Link>
 
-        {/* Burger button — plain button, no motion */}
         <button
           onClick={() => setOpen(true)}
           style={{

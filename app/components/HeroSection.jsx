@@ -87,9 +87,12 @@ export default function HeroSection() {
         </p>
 
         {/* CTA */}
-        <button className="mt-10 px-10 py-3.5 border border-[#EAD4BA]/40 text-[#EAD4BA] text-[9px] tracking-[0.35em] uppercase font-light active:scale-95">
-          Voir le menu
-        </button>
+        <button
+  onClick={() => document.getElementById('menu')?.scrollIntoView({ behavior: 'smooth' })}
+  className="mt-10 px-10 py-3.5 border border-[#EAD4BA]/40 text-[#EAD4BA] text-[9px] tracking-[0.35em] uppercase font-light active:scale-95"
+>
+  Voir le menu
+</button>
 
       </div>
 

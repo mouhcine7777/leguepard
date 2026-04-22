@@ -4,27 +4,27 @@ import Link from "next/link";
 
 const categories = [
   {
-    title: "Cocktails",
-    subtitle: "Signatures & Classiques",
-    href: "/menu/cocktails",
+    title: "Apéritifs",
+    subtitle: "Pour Bien Commencer",
+    href: "/menu/aperitifs",
     number: "01",
-  },
-  {
-    title: "Champagnes & Vins",
-    subtitle: "Sélection de la Cave",
-    href: "/menu/champagnes-vins",
-    number: "02",
   },
   {
     title: "Entrées",
     subtitle: "Pour Commencer",
     href: "/menu/entrees",
+    number: "02",
+  },
+  {
+    title: "Plats",
+    subtitle: "Poisson & Viande",
+    href: "/menu/plats",
     number: "03",
   },
   {
-    title: "Poisson & Viande",
-    subtitle: "Plats Principaux",
-    href: "/menu/poisson-viande",
+    title: "Pâtes",
+    subtitle: "Nos Créations",
+    href: "/menu/pates",
     number: "04",
   },
   {
@@ -33,11 +33,17 @@ const categories = [
     href: "/menu/desserts",
     number: "05",
   },
+  {
+    title: "Cocktails",
+    subtitle: "Signatures & Classiques",
+    href: "/menu/cocktails",
+    number: "06",
+  },
 ];
 
 export default function MenuSection() {
   return (
-    <section className="relative w-full bg-[#EAD4BA] font-montserrat py-20 px-6 overflow-hidden">
+    <section id="menu" className="relative w-full bg-[#EAD4BA] font-montserrat py-20 px-6 overflow-hidden">
 
       {/* Section header */}
       <div className="relative z-10 flex flex-col items-center text-center mb-14">
@@ -69,16 +75,16 @@ export default function MenuSection() {
 
               {/* Title + subtitle */}
               <div className="relative z-10 flex-1 text-center px-4">
-                <p className="text-[13px] tracking-[0.2em] uppercase text-[#74031E] group-hover:text-[#EAD4BA] transition-colors duration-300 font-light leading-none mb-1">
+                <p className="text-[13px] tracking-[0.2em] uppercase text-[#74031E] group-hover:text-[#EAD4BA] transition-colors duration-300 font-semibold leading-none mb-1">
                   {cat.title}
                 </p>
-                <p className="text-[8px] tracking-[0.25em] uppercase text-[#74031E]/45 group-hover:text-[#EAD4BA]/55 transition-colors duration-300 font-light">
+                <p className="text-[8px] tracking-[0.25em] uppercase text-[#74031E]/45 group-hover:text-[#EAD4BA]/55 transition-colors duration-300 font-medium">
                   {cat.subtitle}
                 </p>
               </div>
 
               {/* Arrow */}
-              <span className="relative z-10 text-[#74031E]/40 group-hover:text-[#EAD4BA]/70 group-hover:translate-x-1 transition-all duration-300 text-xs">
+              <span className="relative z-10 text-[#74031E]/40 group-hover:text-[#EAD4NA]/70 group-hover:translate-x-1 transition-all duration-300 text-xs">
                 →
               </span>
 
