@@ -81,9 +81,9 @@ export default function HeroSection() {
 
         {/* Description */}
         <p className="text-[11px] tracking-widest uppercase text-[#EAD4BA]/50 font-light leading-loose">
-          Une table d'exception
+          Everything must change for everything
           <br />
-          une piste qui ne dort jamais
+          to remain the same
         </p>
 
         {/* CTA */}
