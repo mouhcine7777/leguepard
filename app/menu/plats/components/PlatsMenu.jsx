@@ -7,16 +7,15 @@ const sections = [
   {
     category: "Poisson",
     items: [
-      { name: "Cassolette de Poisson", price: "175", ingredients: "Poisson du jour, selon arrivage", description: "Un plat qui change au fil des marées. Le Chef sélectionne chaque jour le meilleur de l'arrivage et le prépare en cassolette — généreux, parfumé, ancré dans le moment." },
-      { name: "Risotto Crémeux", price: "160", ingredients: "Brocoli, épinards, calamars al ajillo, ail, huile d'olive", description: "Un risotto onctueux aux légumes verts, couronné de calamars sautés à l'ail à la manière espagnole. La mer et la terre dans une assiette équilibrée et généreuse." },
+      { name: "Cassolette de Poisson", price: "160", ingredients: "Poisson du jour, selon arrivage", description: "Un plat qui change au fil des marées. Le Chef sélectionne chaque jour le meilleur de l'arrivage et le prépare en cassolette — généreux, parfumé, ancré dans le moment." },
+      { name: "Risotto Crémeux", price: "165", ingredients: "Brocoli, épinards, calamars al ajillo, ail, huile d'olive", description: "Un risotto onctueux aux légumes verts, couronné de calamars sautés à l'ail à la manière espagnole. La mer et la terre dans une assiette équilibrée et généreuse." },
     ],
   },
   {
     category: "Viande",
     items: [
-      { name: "Milanaise de Bœuf", price: "185", ingredients: "Escalope de bœuf panée, panzanella, crème de burrata, Parmigiano Reggiano, basilic", description: "La milanaise revisitée à l'italienne — une escalope dorée et croustillante posée sur une panzanella estivale, liée par une crème de burrata soyeuse et le parfum du basilic frais." },
-      { name: "Épaule d'Agneau Rôtie", price: "220", ingredients: "Épaule d'agneau confite, riz arabe parfumé aux épices", description: "Lentement rôtie jusqu'à la tendreté absolue, l'épaule d'agneau se sert sur un lit de riz arabe aux épices douces — cumin, cannelle, cardamome. Un plat de partage, chaleureux et généreux." },
-      { name: "Lomo Saltado Peruano", price: "190", ingredients: "Bœuf sauté, tomate, oignon rouge, soja, vinaigre, coriandre, frites", description: "Le grand classique de la cuisine péruvienne. Le bœuf sauté à feu vif rencontre les légumes croquants dans une sauce umami profonde — servi avec des frites croustillantes pour absorber tous les jus." },
+      { name: "Milanaise de Bœuf", price: "180", ingredients: "Escalope de bœuf panée, panzanella, crème de burrata, Parmigiano Reggiano, basilic", description: "La milanaise revisitée à l'italienne — une escalope dorée et croustillante posée sur une panzanella estivale, liée par une crème de burrata soyeuse et le parfum du basilic frais." },
+      { name: "Lomo Saltado Peruano", price: "175", ingredients: "Bœuf sauté, tomate, oignon rouge, soja, vinaigre, coriandre, frites", description: "Le grand classique de la cuisine péruvienne. Le bœuf sauté à feu vif rencontre les légumes croquants dans une sauce umami profonde — servi avec des frites croustillantes pour absorber tous les jus." },
     ],
   },
 ];

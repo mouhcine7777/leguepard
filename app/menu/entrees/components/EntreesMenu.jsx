@@ -7,17 +7,16 @@ const sections = [
   {
     category: "Froides",
     items: [
-      { name: "Borsch & Crabe", price: "110", ingredients: "Betterave, crabe, crème fraîche, aneth", description: "Une soupe froide d'inspiration russe revisitée — la douceur terreuse de la betterave rencontre la finesse iodée du crabe. Fraîche, élégante, inattendue." },
-      { name: "Ceviche Clásico Peruano", price: "120", ingredients: "Poisson blanc cru, leche de tigre, oignon rouge, coriandre, ají", description: "Le ceviche dans sa forme la plus pure. Le poisson mariné à l'acide du citron, relevé par le piment et la fraîcheur de la coriandre — un classique péruvien." },
-      { name: "Assortiment de Crudités", price: "95", ingredients: "Légumes de saison, sauce curry vegan (V)", description: "Un plateau de crudités croquantes accompagné d'une sauce curry vegan généreuse. Simple, végétal et lumineux." },
-      { name: "Causa Péruvienne Noire", price: "125", ingredients: "Pomme de terre à l'ají, encre de seiche, gambas", description: "La causa revisitée dans sa version noire — pomme de terre relevée à l'ají amarillo et colorée à l'encre de seiche, surmontée de gambas délicatement assaisonnées." },
+      { name: "Soupe Bortsch et crabe VG", price: "120", ingredients: "Betterave, crabe, crème fraîche, aneth", description: "Une soupe froide d'inspiration russe revisitée — la douceur terreuse de la betterave rencontre la finesse iodée du crabe. Fraîche, élégante, inattendue." },
+      { name: "Ceviche Clásico Peruano", price: "140", ingredients: "Poisson blanc cru, leche de tigre, oignon rouge, coriandre, ají", description: "Le ceviche dans sa forme la plus pure. Le poisson mariné à l'acide du citron, relevé par le piment et la fraîcheur de la coriandre — un classique péruvien." },
+      { name: "Causa Péruvienne Noire", price: "150", ingredients: "Pomme de terre à l'ají, encre de seiche, gambas", description: "La causa revisitée dans sa version noire — pomme de terre relevée à l'ají amarillo et colorée à l'encre de seiche, surmontée de gambas délicatement assaisonnées." },
     ],
   },
   {
     category: "Chaudes & Marinées",
     items: [
-      { name: "Tiradito de Thon", price: "130", ingredients: "Thon, leche de tigre à l'avocat, calamar croustillant, radis, navet, jalapeño", description: "Entre sashimi et ceviche, le tiradito met le thon à l'honneur. L'avocat adoucit, le jalapeño pique, le calamar croustillant apporte la texture." },
-      { name: "Saumon Tataki", price: "125", ingredients: "Saumon snacké, fenouil, edamame, concombre, coriandre, oignon & ponzu", description: "Le saumon saisi à la flamme, servi en salade fraîche. La sauce ponzu lie les saveurs asiatiques et méditerranéennes dans une assiette lumineuse et équilibrée." },
+      { name: "Tiradito de Thon", price: "150", ingredients: "Thon, leche de tigre à l'avocat, calamar croustillant, radis, navet, jalapeño", description: "Entre sashimi et ceviche, le tiradito met le thon à l'honneur. L'avocat adoucit, le jalapeño pique, le calamar croustillant apporte la texture." },
+      { name: "Saumon Tataki", price: "145", ingredients: "Saumon snacké, fenouil, edamame, concombre, coriandre, oignon & ponzu", description: "Le saumon saisi à la flamme, servi en salade fraîche. La sauce ponzu lie les saveurs asiatiques et méditerranéennes dans une assiette lumineuse et équilibrée." },
     ],
   },
 ];

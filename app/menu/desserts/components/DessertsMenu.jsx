@@ -9,28 +9,22 @@ const sections = [
     items: [
       {
         name: "Panna Cotta Passion",
-        price: "75",
+        price: "90",
         ingredients: "Crème, vanille, coulis de fruits rouges, crumble de pistache",
         description: "Soyeuse et légère, la panna cotta se pare d'un coulis de fruits rouges acidulé et d'un crumble de pistache pour un contraste de textures délicat.",
       },
       {
         name: "Suspiro Limeño",
-        price: "80",
+        price: "90",
         ingredients: "Dulce de leche à la vanille de Madagascar, meringue au Porto",
         description: "Un classique péruvien revisité. La douceur profonde du dulce de leche s'équilibre avec une meringue aérienne au Porto — contient de l'alcool.",
       },
       {
-        name: "Selva Negra",
-        price: "85",
-        ingredients: "Chocolat noir, cerises, chantilly, kirsch",
-        description: "Notre interprétation de la forêt noire — un équilibre entre l'intensité du chocolat, la fraîcheur des cerises et la légèreté de la crème.",
-      },
-      {
         name: "Torta Tres Leches",
-        price: "75",
+        price: "90",
         ingredients: "Lait entier, lait condensé, crème liquide, cannelle",
         description: "Moelleux et généreux, ce gâteau imbibé aux trois laits fond littéralement en bouche. Une pointe de cannelle vient réchauffer l'ensemble.",
-      },
+      }
     ],
   },
 ];
