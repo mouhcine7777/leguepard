@@ -6,7 +6,9 @@ import Image from 'next/image';
 import { motion, AnimatePresence } from 'framer-motion';
 
 const menuItems = [
-  { label: "Cocktails",         href: "/menu/cocktails" },
+  { label: "Cocktails & Soft",         href: "/menu/cocktails" },
+  { label: "Champagnes & Vins",         href: "/menu/champagnes" },
+  { label: "Bières",         href: "/menu/beers" },
   { label: "Apéritifs",         href: "/menu/aperitifs" },
   { label: "Entrées",           href: "/menu/entrees" },
   { label: "Plats",             href: "/menu/plats" },

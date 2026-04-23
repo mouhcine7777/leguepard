@@ -7,15 +7,15 @@ const sections = [
   {
     category: "Poisson",
     items: [
-      { name: "Cassolette de Poisson", price: "160", ingredients: "Poisson du jour, selon arrivage", description: "Un plat qui change au fil des marées. Le Chef sélectionne chaque jour le meilleur de l'arrivage et le prépare en cassolette — généreux, parfumé, ancré dans le moment." },
-      { name: "Risotto Crémeux", price: "165", ingredients: "Brocoli, épinards, calamars al ajillo, ail, huile d'olive", description: "Un risotto onctueux aux légumes verts, couronné de calamars sautés à l'ail à la manière espagnole. La mer et la terre dans une assiette équilibrée et généreuse." },
+      { name: "Cassolette de Poisson", price: "230", ingredients: "Poisson du jour, selon arrivage", description: "Un plat qui change au fil des marées. Le Chef sélectionne chaque jour le meilleur de l'arrivage et le prépare en cassolette — généreux, parfumé, ancré dans le moment." },
+      { name: "Risotto Crémeux", price: "220", ingredients: "Brocoli, épinards, calamars al ajillo", description: "Un risotto onctueux aux légumes verts, couronné de calamars sautés à l'ail à la manière espagnole. La mer et la terre dans une assiette équilibrée et généreuse." },
     ],
   },
   {
     category: "Viande",
     items: [
-      { name: "Milanaise de Bœuf", price: "180", ingredients: "Escalope de bœuf panée, panzanella, crème de burrata, Parmigiano Reggiano, basilic", description: "La milanaise revisitée à l'italienne — une escalope dorée et croustillante posée sur une panzanella estivale, liée par une crème de burrata soyeuse et le parfum du basilic frais." },
-      { name: "Lomo Saltado Peruano", price: "175", ingredients: "Bœuf sauté, tomate, oignon rouge, soja, vinaigre, coriandre, frites", description: "Le grand classique de la cuisine péruvienne. Le bœuf sauté à feu vif rencontre les légumes croquants dans une sauce umami profonde — servi avec des frites croustillantes pour absorber tous les jus." },
+      { name: "Milanaise de Bœuf", price: "280", ingredients: "Panzanella, crème de burrata, Parmigiano Reggiano & basilic", description: "La milanaise revisitée à l'italienne — une escalope dorée et croustillante posée sur une panzanella estivale, liée par une crème de burrata soyeuse et le parfum du basilic frais." },
+      { name: "Lomo Saltado Peruano", price: "260", ingredients: "Bœuf sauté aux légumes, à la péruvienne", description: "Le grand classique de la cuisine péruvienne. Le bœuf sauté à feu vif rencontre les légumes croquants dans une sauce umami profonde — servi avec des frites croustillantes pour absorber tous les jus." },
     ],
   },
 ];

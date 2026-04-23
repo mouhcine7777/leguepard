@@ -1,7 +1,7 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  allowedDevOrigins: ['10.10.8.28'],
+  allowedDevOrigins: ['10.10.8.153'],
   output: "export", 
   images: {
     unoptimized: true, 
