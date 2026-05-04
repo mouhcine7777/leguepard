@@ -8,7 +8,7 @@ const sections = [
     category: "Pâtes",
     items: [
       { name: "Cannelloni à l'Ají de Gallina", price: "180", ingredients: "Volaille crémeuse au piment jaune péruvien", description: "Un mariage audacieux entre la pasta italienne et la cuisine péruvienne. L'ají de gallina — volaille crémeuse au piment jaune — garnie dans des cannelloni dorés au four. Doux, épicé, réconfortant." },
-      { name: "Spaghettis Noirs aux Fruits de Mer", price: "220", ingredients: "Spaghettis noirs aux fruits de mer", description: "Les spaghettis noirs à l'encre de seiche habillent les fruits de mer d'une élégance dramatique. L'ail et le persil parfument, l'huile d'olive lie — une assiette aussi belle que savoureuse." },
+      { name: "Spaghettis Noirs aux Fruits de Mer", price: "180", ingredients: "Spaghettis noirs aux fruits de mer", description: "Les spaghettis noirs à l'encre de seiche habillent les fruits de mer d'une élégance dramatique. L'ail et le persil parfument, l'huile d'olive lie — une assiette aussi belle que savoureuse." },
     ],
   },
 ];

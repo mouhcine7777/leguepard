@@ -53,7 +53,7 @@ const vinsFrance = {
     { name: 'Sancerre',     verre: null, bouteille: '590' },
   ],
   rouge: [
-    { name: 'Château Cazzu',                          verre: '80',  bouteille: '220' },
+    { name: 'Château Cazeau',                          verre: '80',  bouteille: '220' },
     { name: 'Château Lafitte',                        verre: null,  bouteille: '480' },
     { name: 'Chamirey Mercury Bourgogne',             verre: null,  bouteille: '720' },
     { name: 'Châteauneuf-du-Pape Les Sinards Perrin', verre: null,  bouteille: '980' },

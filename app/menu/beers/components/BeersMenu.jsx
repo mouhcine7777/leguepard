@@ -26,6 +26,7 @@ const digestifs = [
   { name: 'Limoncello', prix: '60' },
   { name: 'Sambuca',    prix: '70' },
   { name: 'Get 27',     prix: '70' },
+  { name: 'Jagermeister',     prix: '70' },
   { name: 'Baileys',    prix: '90' },
   { name: 'Amaretto',   prix: '90' },
 ];

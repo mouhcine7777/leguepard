@@ -7,11 +7,11 @@ const sections = [
   {
     category: "Bouchées",
     items: [
-      { name: "Sélection de Fromages", price: "220", ingredients: "Mini plateau fromage", description: "Un plateau soigneusement sélectionné pour ouvrir l'appétit. Affinages du moment, servis avec leurs accompagnements." },
-      { name: "Ensaladilla Rusa Revisitée", price: "120", ingredients: "Endives croquantes, thon et aïoli", description: "La salade russe revisitée à notre façon. Des endives croquantes apportent de la fraîcheur, le thon sa profondeur, et l'aïoli une rondeur gourmande." },
-      { name: "Olives all'Ascolana", price: "80", ingredients: "Farcies au fromage, enrobées d’une fine panure et frites", description: "Une spécialité italienne revisitée. L'olive fondante rencontre un cœur de fromage, enrobée d'une fine panure dorée à la friture." },
-      { name: "Tarama & Chips de Pain Lavash", price: "120", ingredients: "Tarama maison, pain lavash croustillant", description: "Onctueux et fumé, le tarama se marie à la légèreté craquante du pain lavash — une entrée en matière élégante." },
-      { name: "Shrimp Toast Vietnamien", price: "160", ingredients: "Crevettes, pain de mie, sésame, sauce nuoc-mâm", description: "Croustillant à l'extérieur, moelleux à l'intérieur. Une invitation au voyage entre Saïgon et les rives de la Méditerranée." },
+      { name: "Sélection de Fromages", price: "120", ingredients: "Mini plateau fromage", description: "Un plateau soigneusement sélectionné pour ouvrir l'appétit. Affinages du moment, servis avec leurs accompagnements." },
+      { name: "Ensaladilla Rusa Revisitée", price: "80", ingredients: "Endives croquantes, thon et aïoli", description: "La salade russe revisitée à notre façon. Des endives croquantes apportent de la fraîcheur, le thon sa profondeur, et l'aïoli une rondeur gourmande." },
+      { name: "Olives all'Ascolana", price: "60", ingredients: "Farcies au fromage, enrobées d’une fine panure et frites", description: "Une spécialité italienne revisitée. L'olive fondante rencontre un cœur de fromage, enrobée d'une fine panure dorée à la friture." },
+      { name: "Tarama & Chips de Pain Lavash", price: "80", ingredients: "Tarama maison, pain lavash croustillant", description: "Onctueux et fumé, le tarama se marie à la légèreté craquante du pain lavash — une entrée en matière élégante." },
+      { name: "Shrimp Toast Vietnamien", price: "140", ingredients: "Crevettes, pain de mie, sésame, sauce nuoc-mâm", description: "Croustillant à l'extérieur, moelleux à l'intérieur. Une invitation au voyage entre Saïgon et les rives de la Méditerranée." },
     ],
   },
 ];

@@ -9,19 +9,19 @@ const sections = [
     items: [
       {
         name: "Panna Cotta Passion",
-        price: "90",
+        price: "100",
         ingredients: "Coulis de fruits rouges & crumble de pistache",
         description: "Soyeuse et légère, la panna cotta se pare d'un coulis de fruits rouges acidulé et d'un crumble de pistache pour un contraste de textures délicat.",
       },
       {
         name: "Suspiro limeño revisité",
-        price: "90",
+        price: "100",
         ingredients: "Dulce de leche à la vanille de Madagascar, meringue au Porto — contient de l’alcool",
         description: "Un classique péruvien revisité. La douceur profonde du dulce de leche s'équilibre avec une meringue aérienne au Porto — contient de l'alcool.",
       },
       {
         name: "Torta Tres Leches",
-        price: "90",
+        price: "100",
         ingredients: "Gâteau imbibé aux trois laits, pointe de cannelle",
         description: "Moelleux et généreux, ce gâteau imbibé aux trois laits fond littéralement en bouche. Une pointe de cannelle vient réchauffer l'ensemble.",
       }
