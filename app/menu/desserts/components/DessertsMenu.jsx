@@ -8,22 +8,28 @@ const sections = [
     category: "Desserts",
     items: [
       {
-        name: "Panna Cotta Passion",
+        name: "Panna Cotta à la vanille de Madagascar",
         price: "100",
-        ingredients: "Coulis de fruits rouges & crumble de pistache",
-        description: "Soyeuse et légère, la panna cotta se pare d'un coulis de fruits rouges acidulé et d'un crumble de pistache pour un contraste de textures délicat.",
+        ingredients: "Coulis de fruit de la passion & crumble à la pistache",
+        description: "Soyeuse et délicate, notre panna cotta à la vanille de Madagascar s'accompagne d'un coulis de fruit de la passion vibrant et d'un crumble à la pistache pour un contraste de textures raffiné.",
       },
       {
-        name: "Suspiro limeño revisité",
+        name: "Tiramisu Guépard",
         price: "100",
-        ingredients: "Dulce de leche à la vanille de Madagascar, meringue au Porto — contient de l’alcool",
-        description: "Un classique péruvien revisité. La douceur profonde du dulce de leche s'équilibre avec une meringue aérienne au Porto — contient de l'alcool.",
+        ingredients: "La signature maison",
+        description: "Notre version signature du grand classique italien, élaborée avec soin par notre chef pâtissier.",
       },
       {
-        name: "Torta Tres Leches",
+        name: "Tres Leches Vanille & Caramel Beurre Salé",
         price: "100",
-        ingredients: "Gâteau imbibé aux trois laits, pointe de cannelle",
-        description: "Moelleux et généreux, ce gâteau imbibé aux trois laits fond littéralement en bouche. Une pointe de cannelle vient réchauffer l'ensemble.",
+        ingredients: "Tres Leches à la vanille, caramel beurre salé & crème à la mascarpone",
+        description: "Un gâteau imbibé aux trois laits parfumé à la vanille, sublimé par un caramel beurre salé gourmand et une crème onctueuse à la mascarpone.",
+      },
+      {
+        name: "Mousse Chocolat & Praliné Croquant",
+        price: "100",
+        ingredients: "Mousse au chocolat, croustillant praliné & copeaux de chocolat",
+        description: "Une mousse au chocolat aérienne rehaussée d'une légère touche de croustillant praliné et de copeaux de chocolat pour un plaisir intense.",
       }
     ],
   },
